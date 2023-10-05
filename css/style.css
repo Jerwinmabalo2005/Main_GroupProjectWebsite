@@ -25,36 +25,20 @@ body {
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
 }
-header h1 {
-  color: paleturquoise;
+p{
+  text-align: center;
 }
-header {
-  position: absolute;
-  top: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 20px;
-  max-width: 1200px;
-  box-sizing: border-box;
-  width: 100%;
-}
-nav ul {
-  display: flex;
-  gap: 20px;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-nav a {
-  text-decoration: none;
-  color: paleturquoise;
-  text-transform: uppercase;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-nav a:hover {
-  color: #3498db;
+
+.sub_button {
+    border: none;
+    background: red;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .4s;
+    text-decoration: none;
 }
 main {
   position: relative;
@@ -95,6 +79,12 @@ h2 {
   padding: 2px;
   text-decoration: underline;
 }
+h3{
+  text-align: center;
+  background: palegreen;
+
+}
+
 .column p {
   font-size: 20px;
 }
@@ -150,6 +140,13 @@ h2 {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
+.col img{
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
 footer {
   text-align: center;
   font-family: "Raleway", sans-serif;
