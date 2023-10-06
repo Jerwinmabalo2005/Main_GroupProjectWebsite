@@ -137,7 +137,7 @@ h3{
 footer {
   text-align: center;
   font-family: "Raleway", sans-serif;
-  background-color: lightseagreen;
+  background-color: rgb(11, 196, 27);
   padding: 10px;
   text-decoration: solid;
 }
@@ -166,4 +166,8 @@ footer {
 .footercontainer a:hover i {
   color: white;
   transition: 0.5s;
+}
+.footermedia {
+  color: rgb(11, 196, 27);
+  text-align: center;
 }
