@@ -137,7 +137,11 @@ h3{
 footer {
   text-align: center;
   font-family: "Raleway", sans-serif;
+<<<<<<< HEAD
   background-color: rgb(11, 196, 27);
+=======
+  background-color: rgb(5, 121, 14);
+>>>>>>> 4a9e50b0b61ed4c0101cd16cd819cf6ed1be85fd
   padding: 10px;
   text-decoration: solid;
 }
@@ -160,7 +164,7 @@ footer {
   opacity: 0.9;
 }
 .footercontainer a:hover {
-  background-color: rgb(83, 194, 194);
+  background-color: rgb(5, 121, 14);
   transition: 0.5s;
 }
 .footercontainer a:hover i {
@@ -168,6 +172,10 @@ footer {
   transition: 0.5s;
 }
 .footermedia {
+<<<<<<< HEAD
   color: rgb(11, 196, 27);
+=======
+  color: rgb(5, 121, 14);
+>>>>>>> 4a9e50b0b61ed4c0101cd16cd819cf6ed1be85fd
   text-align: center;
 }
