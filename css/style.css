@@ -114,9 +114,8 @@ h3{
   margin: auto;
   padding: 20px;
   font-family: "Raleway", sans-serif;
-
- 
 }
+
 .grid-item {
   height: 100px;
 }
@@ -132,6 +131,9 @@ h3{
   object-fit: cover;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
+}
+section article ol{
+  padding:10px;
 }
 
 footer {
